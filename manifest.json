@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Find Korea Fast",
+  "version": "1.0",
+  "description": "웹 페이지에서 다양한 '한국' 표기를 자동으로 찾아주는 도우미",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
