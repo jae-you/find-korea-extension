@@ -5,6 +5,10 @@ South Korea? Republic of Korea? Korea, Republic of? 대한민국? — 더 이상
 
 ---
 
+## 📸 사용 예시
+
+![자동 팝업 안내](./dropdown-example.png)
+
 ## 📌 기능 소개
 
 - 어떤 웹페이지든 `<select>` 드롭다운에서 '한국' 관련 항목을 자동 탐지
